@@ -1,5 +1,5 @@
-package com.solvd.taxi;
+package com.solvd.taxi.vehicle;
 
-public class Scooter extends Vehicle{
+public class Scooter extends Vehicle {
     public void takeScooter(){}
 }
