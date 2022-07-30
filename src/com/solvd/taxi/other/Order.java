@@ -9,6 +9,14 @@ public class Order {
     private double price;
 
     public Order(){}
+    public Order(int id,String date,String time,String start,String finish,double price){
+        this.id=id;
+        this.date=date;
+        this.time=time;
+        this.start=start;
+        this.finish=finish;
+        this.price=price;
+    }
 
     public void setId(int id) {
         this.id = id;

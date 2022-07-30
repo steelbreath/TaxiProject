@@ -6,6 +6,11 @@ public class Discount {
     private String cardName;
 
     public Discount(){}
+    public Discount(int amount,int quantity,String cardName){
+        this.amount=amount;
+        this.quantity=quantity;
+        this.cardName=cardName;
+    }
 
     public void setAmount(int amount) {
         this.amount = amount;

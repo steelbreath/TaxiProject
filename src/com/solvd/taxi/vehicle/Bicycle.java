@@ -5,6 +5,10 @@ public class Bicycle extends Vehicle {
     private int minutes;
 
     public Bicycle(){}
+    public Bicycle(String type,int minutes){
+        this.type=type;
+        this.minutes=minutes;
+    }
 
     public void setType(String type) {
         this.type = type;

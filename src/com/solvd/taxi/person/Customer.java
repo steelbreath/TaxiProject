@@ -8,6 +8,11 @@ public class Customer extends Person {
     private float rating;
 
     public Customer (){}
+    public Customer (int phoneNumber,String email,float rating){
+        this.phoneNumber=phoneNumber;
+        this.email=email;
+        this.rating=rating;
+    }
 
     public void setPhoneNumber(int phoneNumber) {
         this.phoneNumber = phoneNumber;
