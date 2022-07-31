@@ -8,10 +8,12 @@ public class Customer extends Person {
     private float rating;
 
     public Customer (){}
-    public Customer (int phoneNumber,String email,float rating){
+    public Customer (int phoneNumber,String email,float rating,String fullName,String city){
         this.phoneNumber=phoneNumber;
         this.email=email;
         this.rating=rating;
+        super.setFullName(fullName);
+        super.setCity(city);
     }
 
     public void setPhoneNumber(int phoneNumber) {

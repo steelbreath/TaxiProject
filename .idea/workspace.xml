@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1f77030-914b-4115-8f17-159cefb6985f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/solvd/taxi/other/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/solvd/taxi/person/Courier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Bus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/other/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/other/Discount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/other/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/other/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/person/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/person/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/person/Drivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/person/Drivers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/person/Mechanics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/person/Mechanics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Bicycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Taxi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Taxi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/XL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Truck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,6 +51,20 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.solvd.taxi" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="TaxiProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

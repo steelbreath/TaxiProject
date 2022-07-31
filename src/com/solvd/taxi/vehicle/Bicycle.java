@@ -2,12 +2,16 @@ package com.solvd.taxi.vehicle;
 
 public class Bicycle extends Vehicle {
     private String type;
-    private int minutes;
+    private int minutesOfUsing;
 
     public Bicycle(){}
-    public Bicycle(String type,int minutes){
+    public Bicycle(String type,int minutesOfUsing,int maxSpeed,int power,boolean fuelEngine,int fuelConsumption){
         this.type=type;
-        this.minutes=minutes;
+        this.minutesOfUsing = minutesOfUsing;
+        super.setMaxSpeed(maxSpeed);
+        super.setPower(power);
+        super.setFuelEngine(fuelEngine);
+        super.setFuelConsumption(fuelConsumption);
     }
 
     public void setType(String type) {
@@ -16,11 +20,11 @@ public class Bicycle extends Vehicle {
     public String getType() {
         return type;
     }
-    public void setMinutes(int minutes) {
-        this.minutes = minutes;
+    public void setMinutesOfUsing(int minutesOfUsing) {
+        this.minutesOfUsing = minutesOfUsing;
     }
-    public int getMinutes() {
-        return minutes;
+    public int getMinutesOfUsing() {
+        return minutesOfUsing;
     }
 
     public void takeBike(){}

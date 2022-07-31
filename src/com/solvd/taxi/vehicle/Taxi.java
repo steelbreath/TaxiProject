@@ -9,13 +9,18 @@ public class Taxi extends Car {
     private boolean support;
 
     public Taxi(){}
-    public Taxi(String type,int seats,boolean kids,boolean pets,boolean eco,boolean support){
+    public Taxi(String type,int seats,boolean kids,boolean pets,boolean eco,boolean support,String brand,
+                String model,int carNumber,String color){
         this.type=type;
         this.seats=seats;
         this.kids=kids;
         this.pets=pets;
         this.eco=eco;
         this.support=support;
+        super.setBrand(brand);
+        super.setModel(model);
+        super.setCarNumber(carNumber);
+        super.setColor(color);
     }
 
     public void setType(String type) {
