@@ -6,6 +6,15 @@ public abstract class Car extends Vehicle {
     private int carNumber;
     private String color;
 
+     public Car(){}
+    public Car(int maxSpeed,int power,int fuelConsumption,
+               String brand, String model,int carNumber,String color){
+         super(maxSpeed,power,fuelConsumption);
+         this.brand=brand;
+         this.model=model;
+         this.carNumber=carNumber;
+         this.color=color;
+    }
 
     public void setBrand(String brand) {
         this.brand = brand;

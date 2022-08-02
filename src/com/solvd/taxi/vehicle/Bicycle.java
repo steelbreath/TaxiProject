@@ -5,13 +5,10 @@ public class Bicycle extends Vehicle {
     private int minutesOfUsing;
 
     public Bicycle(){}
-    public Bicycle(String type,int minutesOfUsing,int maxSpeed,int power,boolean fuelEngine,int fuelConsumption){
+    public Bicycle(String type,int minutesOfUsing,int maxSpeed,int power,int fuelConsumption){
+        super(maxSpeed,power,fuelConsumption);
         this.type=type;
         this.minutesOfUsing = minutesOfUsing;
-        super.setMaxSpeed(maxSpeed);
-        super.setPower(power);
-        super.setFuelEngine(fuelEngine);
-        super.setFuelConsumption(fuelConsumption);
     }
 
     public void setType(String type) {

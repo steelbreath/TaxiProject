@@ -6,6 +6,15 @@ public abstract class Employee extends Person {
     private int workingInCompany;
     private int salary;
 
+    public Employee(){}
+    public Employee(String position,int experience,int workingInCompany,int salary,String fullName, String city){
+        super(fullName,city);
+        this.position=position;
+        this.experience=experience;
+        this.workingInCompany=workingInCompany;
+        this.salary=salary;
+    }
+
     public void setPosition(String position) {
         this.position = position;
     }

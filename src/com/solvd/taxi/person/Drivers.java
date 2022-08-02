@@ -2,16 +2,13 @@ package com.solvd.taxi.person;
 
 public class Drivers extends Employee {
     private float rating;
+    private float km;
 
     public Drivers(){}
-    public Drivers(float rating,String fullName,String city,String position,int experience,int workingInCompany,int salary){
+    public Drivers(float rating,float km,String position,int experience,int workingInCompany,int salary,String fullName, String city){
+        super(position,experience,workingInCompany,salary,fullName,city);
         this.rating=rating;
-        super.setFullName(fullName);
-        super.setCity(city);
-        super.setPosition(position);
-        super.setExperience(experience);
-        super.setWorkingInCompany(workingInCompany);
-        super.setSalary(salary);
+        this.km=km;
     }
 
     public void setRating(float rating) {
@@ -19,6 +16,12 @@ public class Drivers extends Employee {
     }
     public float getRating() {
         return rating;
+    }
+    public void setKm(float km) {
+        this.km = km;
+    }
+    public float getKm() {
+        return km;
     }
 
     public void driveCar(){}
