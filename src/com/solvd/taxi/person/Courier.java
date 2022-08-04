@@ -1,6 +1,8 @@
 package com.solvd.taxi.person;
 
-public class Courier extends Employee {
+import com.solvd.taxi.other.Delivery;
+
+public class Courier extends Employee implements Delivery {
 
     private float rating;
     private int quantityOfOrders;
@@ -32,5 +34,10 @@ public class Courier extends Employee {
     }
     public int getWorkingHours() {
         return workingHours;
+    }
+
+    @Override
+    public void deliver() {
+
     }
 }

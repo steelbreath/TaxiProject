@@ -2,14 +2,12 @@ package com.solvd.taxi.other;
 
 public class Discount {
     private int amount;
-    private int quantity;
-    private String cardName;
+    private int promoCode;
 
     public Discount(){}
-    public Discount(int amount,int quantity,String cardName){
+    public Discount(int amount,int promoCode){
         this.amount=amount;
-        this.quantity=quantity;
-        this.cardName=cardName;
+        this.promoCode = promoCode;
     }
 
     public void setAmount(int amount) {
@@ -18,17 +16,11 @@ public class Discount {
     public int getAmount() {
         return amount;
     }
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public void setPromoCode(int promoCode) {
+        this.promoCode = promoCode;
     }
-    public int getQuantity() {
-        return quantity;
-    }
-    public void setCardName(String cardName) {
-        this.cardName = cardName;
-    }
-    public String getCardName() {
-        return cardName;
+    public int getPromoCode() {
+        return promoCode;
     }
 
 }

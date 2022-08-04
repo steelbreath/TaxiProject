@@ -1,30 +1,41 @@
 package com.solvd.taxi.vehicle;
 
+import com.solvd.taxi.enums.TaxiClass;
+import com.solvd.taxi.enums.TaxiType;
+
 public class Taxi extends Car {
-    private String type;
+
+    private TaxiClass clas;
+    private TaxiType type;
     private int seats;
     private boolean kids;
     private boolean pets;
-    private boolean eco;
-    private boolean support;
 
     public Taxi(){}
-    public Taxi(String type,int seats,boolean kids,boolean pets,boolean eco,boolean support,
+    public Taxi(TaxiClass clas,TaxiType type,int seats,boolean kids,boolean pets,boolean eco,boolean support,
                 int maxSpeed,int power,int fuelConsumption,
                 String brand, String model,int carNumber,String color){
         super(maxSpeed,power,fuelConsumption,brand,model,carNumber,color);
+        this.clas=clas;
         this.type=type;
         this.seats=seats;
         this.kids=kids;
         this.pets=pets;
-        this.eco=eco;
-        this.support=support;
     }
 
-    public void setType(String type) {
+    public void setClas(TaxiClass clas) {
+        this.clas = clas;
+    }
+
+    public TaxiClass getClas() {
+        return clas;
+    }
+
+    public void setType(TaxiType type) {
         this.type = type;
     }
-    public String getType() {
+
+    public TaxiType getType() {
         return type;
     }
     public void setSeats(int seats) {
@@ -44,18 +55,6 @@ public class Taxi extends Car {
     }
     public boolean isPets() {
         return pets;
-    }
-    public void setEco(boolean eco) {
-        this.eco = eco;
-    }
-    public boolean isEco() {
-        return eco;
-    }
-    public void setSupport(boolean support) {
-        this.support = support;
-    }
-    public boolean isSupport() {
-        return support;
     }
 
     public void takePeople(){}
