@@ -1,42 +1,46 @@
 package com.solvd.taxi.person;
 
 public abstract class Employee extends Person {
-    private String position;
     private int experience;
-    private int workingInCompany;
     private int salary;
 
-    public Employee(){}
-    public Employee(String position,int experience,int workingInCompany,int salary,String fullName, String city){
-        super(fullName,city);
-        this.position=position;
-        this.experience=experience;
-        this.workingInCompany=workingInCompany;
-        this.salary=salary;
+    public Employee() {}
+
+    public Employee(String fullName, String city, int experience, int salary) {
+        super(fullName, city);
+        this.experience = experience;
+        this.salary = salary;
     }
 
-    public void setPosition(String position) {
-        this.position = position;
-    }
-    public String getPosition() {
-        return position;
-    }
     public void setExperience(int experience) {
-        this.experience = experience;
+        if(experience<0){
+            throw new ArithmeticException("Experience cannot be negative!");
+        }else {
+            this.experience = experience;
+        }
     }
+
     public int getExperience() {
         return experience;
     }
-    public void setWorkingInCompany(int workingInCompany) {
-        this.workingInCompany = workingInCompany;
-    }
-    public int getWorkingInCompany() {
-        return workingInCompany;
-    }
+
     public void setSalary(int salary) {
-        this.salary = salary;
+        if(salary<0){
+            throw new ArithmeticException("Salary cannot be negative!");
+        }else {
+            this.salary = salary;
+        }
     }
+
     public int getSalary() {
         return salary;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "experience=" + experience +
+                ", salary=" + salary +
+                "} " + super.toString();
     }
 }

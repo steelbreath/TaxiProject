@@ -1,39 +1,65 @@
 package com.solvd.taxi.person;
 
-import com.solvd.taxi.other.Delivery;
+import com.solvd.taxi.interfaces.Delivery;
 
 public class Courier extends Employee implements Delivery {
-
     private float rating;
     private int quantityOfOrders;
     private int workingHours;
 
-    public Courier(){}
-    public Courier(float rating,int quantityOfOrders, int workingHours, String position,int experience,
-                   int workingInCompany, int salary,String fullName, String city){
-        super(position,experience,workingInCompany,salary,fullName,city);
-        this.rating=rating;
-        this.quantityOfOrders=quantityOfOrders;
-        this.workingHours=workingHours;
+    public Courier() {}
+
+    public Courier(String fullName, String city, int experience, int salary,
+                   float rating, int quantityOfOrders, int workingHours) {
+        super(fullName, city, experience, salary);
+        this.rating = rating;
+        this.quantityOfOrders = quantityOfOrders;
+        this.workingHours = workingHours;
     }
 
     public void setRating(float rating) {
-        this.rating = rating;
+        if((rating<0)||(rating>5)){
+            throw new ArithmeticException("Choose from 0 to 5!");
+        }else {
+            this.rating = rating;
+        }
     }
+
     public float getRating() {
         return rating;
     }
+
     public void setQuantityOfOrders(int quantityOfOrders) {
-        this.quantityOfOrders = quantityOfOrders;
+        if(quantityOfOrders<0){
+            throw new ArithmeticException("Quantity of orders cannot be negative!");
+        }else {
+            this.quantityOfOrders = quantityOfOrders;
+        }
     }
+
     public int getQuantityOfOrders() {
         return quantityOfOrders;
     }
+
     public void setWorkingHours(int workingHours) {
-        this.workingHours = workingHours;
+        if(workingHours<0){
+            throw new ArithmeticException("Working hours cannot be negative!");
+        }else {
+            this.workingHours = workingHours;
+        }
     }
+
     public int getWorkingHours() {
         return workingHours;
+    }
+
+    @Override
+    public String toString() {
+        return "Courier{" +
+                "rating=" + rating +
+                ", quantityOfOrders=" + quantityOfOrders +
+                ", workingHours=" + workingHours +
+                "} " + super.toString();
     }
 
     @Override

@@ -4,25 +4,43 @@ public class Drivers extends Employee {
     private float rating;
     private float km;
 
-    public Drivers(){}
-    public Drivers(float rating,float km,String position,int experience,int workingInCompany,int salary,String fullName, String city){
-        super(position,experience,workingInCompany,salary,fullName,city);
-        this.rating=rating;
-        this.km=km;
+    public Drivers() {}
+
+    public Drivers(String fullName, String city,int experience, int salary, float rating, float km) {
+        super(fullName, city, experience, salary);
+        this.rating = rating;
+        this.km = km;
     }
 
     public void setRating(float rating) {
-        this.rating = rating;
+        if((rating<0)||(rating>5)){
+            throw new ArithmeticException("Choose from 0 to 5!");
+        }else {
+            this.rating = rating;
+        }
     }
+
     public float getRating() {
         return rating;
     }
+
     public void setKm(float km) {
-        this.km = km;
+        if(km<0){
+            throw new ArithmeticException("Distance cannot be negative!");
+        }else {
+            this.km = km;
+        }
     }
+
     public float getKm() {
         return km;
     }
 
-    public void driveCar(){}
+    @Override
+    public String toString() {
+        return "Drivers{" +
+                "rating=" + rating +
+                ", km=" + km +
+                "} " + super.toString();
+    }
 }

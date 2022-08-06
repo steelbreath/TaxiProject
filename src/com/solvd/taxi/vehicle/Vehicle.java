@@ -1,33 +1,61 @@
 package com.solvd.taxi.vehicle;
 
 public abstract class Vehicle {
-    private int maxSpeed;
+    private int avgSpeed;
     private int power;
     private int fuelConsumption;
 
-    public Vehicle(){}
-    public Vehicle(int maxSpeed, int power,int fuelConsumption){
-        this.maxSpeed=maxSpeed;
-        this.power=power;
-        this.fuelConsumption=fuelConsumption;
+    public Vehicle() {}
+
+    public Vehicle(int avgSpeed, int power, int fuelConsumption) {
+        this.avgSpeed = avgSpeed;
+        this.power = power;
+        this.fuelConsumption = fuelConsumption;
     }
 
-    public void setMaxSpeed(int maxSpeed) {
-        this.maxSpeed = maxSpeed;
+    public void setAvgSpeed(int avgSpeed) {
+        if(avgSpeed<0){
+            throw new ArithmeticException("Average speed cannot be negative!");
+        }else {
+            this.avgSpeed = avgSpeed;
+        }
     }
-    public int getMaxSpeed() {
-        return maxSpeed;
+
+    public int getAvgSpeed() {
+        return avgSpeed;
     }
+
     public void setPower(int power) {
-        this.power = power;
+        if(power<0){
+            throw new ArithmeticException("Power cannot be negative!");
+        }else {
+            this.power = power;
+        }
+
     }
+
     public int getPower() {
         return power;
     }
+
     public void setFuelConsumption(int fuelConsumption) {
-        this.fuelConsumption = fuelConsumption;
+        if(fuelConsumption<0){
+            throw new ArithmeticException("Experience cannot be negative!");
+        }else {
+            this.fuelConsumption = fuelConsumption;
+        }
     }
+
     public int getFuelConsumption() {
         return fuelConsumption;
+    }
+
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "avgSpeed=" + avgSpeed +
+                ", power=" + power +
+                ", fuelConsumption=" + fuelConsumption +
+                '}';
     }
 }

@@ -4,12 +4,10 @@ public class Dispatchers extends Employee {
     private String kindOfProblem;
     private boolean busy;
 
-    public Dispatchers() {
-    }
+    public Dispatchers() {}
 
-    public Dispatchers(String kindOfProblem, boolean busy, String position, int experience, int workingInCompany,
-                       int salary, String fullName, String city) {
-        super(position, experience, workingInCompany, salary, fullName, city);
+    public Dispatchers(String fullName, String city, int experience, int salary, String kindOfProblem, boolean busy) {
+        super(fullName, city, experience, salary);
         this.kindOfProblem = kindOfProblem;
         this.busy = busy;
     }
@@ -30,7 +28,14 @@ public class Dispatchers extends Employee {
         return busy;
     }
 
-    public void takeOrder() {
+    @Override
+    public String toString() {
+        return "Dispatchers{" +
+                "kindOfProblem='" + kindOfProblem + '\'' +
+                ", busy=" + busy +
+                "} " + super.toString();
     }
+
+    public void takeOrder() {}
 
 }

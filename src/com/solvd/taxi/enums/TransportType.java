@@ -1,14 +1,14 @@
 package com.solvd.taxi.enums;
 
-public enum TaxiClass {
-    ECONOMY("economy"),
-    COMFORT("comfort"),
-    PREMIUM("premium"),
-    BUSINESS("business");
+public enum TransportType {
+    MOTORBIKE("motorbike"),
+    MOPED("moped"),
+    SCOOTER("scooter"),
+    BICYCLE("bicycle");
 
     private final String value;
 
-    TaxiClass(String value){
+    TransportType(String value){
         this.value=value;
     }
 
