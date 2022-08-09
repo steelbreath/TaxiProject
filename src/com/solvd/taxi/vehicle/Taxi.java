@@ -17,7 +17,11 @@ public class Taxi extends Car {
         super(avgSpeed, power, fuelConsumption, brand, model, carNumber, color);
         this.clas = clas;
         this.type = type;
-        this.seats = seats;
+        if(seats<0){
+            throw new ArithmeticException("Number of seats cannot be negative!");
+        }else {
+            this.seats = seats;
+        }
         this.kids = kids;
         this.pets = pets;
     }

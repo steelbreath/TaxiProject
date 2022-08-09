@@ -8,9 +8,21 @@ public abstract class Vehicle {
     public Vehicle() {}
 
     public Vehicle(int avgSpeed, int power, int fuelConsumption) {
-        this.avgSpeed = avgSpeed;
-        this.power = power;
-        this.fuelConsumption = fuelConsumption;
+        if(avgSpeed<0){
+            throw new ArithmeticException("Average speed cannot be negative!");
+        }else {
+            this.avgSpeed = avgSpeed;
+        }
+        if(power<0){
+            throw new ArithmeticException("Power cannot be negative!");
+        }else {
+            this.power = power;
+        }
+        if(fuelConsumption<0){
+            throw new ArithmeticException("Experience cannot be negative!");
+        }else {
+            this.fuelConsumption = fuelConsumption;
+        }
     }
 
     public void setAvgSpeed(int avgSpeed) {

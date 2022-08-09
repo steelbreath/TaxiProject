@@ -1,6 +1,8 @@
 package com.solvd.taxi.person;
 
-public class Drivers extends Employee {
+import com.solvd.taxi.interfaces.JobApplication;
+
+public class Drivers extends Employee implements JobApplication {
     private float rating;
     private float km;
 
@@ -8,8 +10,16 @@ public class Drivers extends Employee {
 
     public Drivers(String fullName, String city,int experience, int salary, float rating, float km) {
         super(fullName, city, experience, salary);
-        this.rating = rating;
-        this.km = km;
+        if((rating<0)||(rating>5)){
+            throw new ArithmeticException("Choose from 0 to 5!");
+        }else {
+            this.rating = rating;
+        }
+        if(km<0){
+            throw new ArithmeticException("Distance cannot be negative!");
+        }else {
+            this.km = km;
+        }
     }
 
     public void setRating(float rating) {
@@ -42,5 +52,15 @@ public class Drivers extends Employee {
                 "rating=" + rating +
                 ", km=" + km +
                 "} " + super.toString();
+    }
+
+    @Override
+    public void applyForJob() {
+
+    }
+
+    @Override
+    public void yourTransportParameters() {
+
     }
 }

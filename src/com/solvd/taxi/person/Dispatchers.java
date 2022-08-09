@@ -1,6 +1,8 @@
 package com.solvd.taxi.person;
 
-public class Dispatchers extends Employee {
+import com.solvd.taxi.interfaces.JobApplication;
+
+public class Dispatchers extends Employee implements JobApplication {
     private String kindOfProblem;
     private boolean busy;
 
@@ -36,6 +38,15 @@ public class Dispatchers extends Employee {
                 "} " + super.toString();
     }
 
+    @Override
+    public void applyForJob() {
+
+    }
+
+    @Override
+    public void yourTransportParameters() {
+
+    }
     public void takeOrder() {}
 
 }

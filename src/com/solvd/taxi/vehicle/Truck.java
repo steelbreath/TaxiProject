@@ -9,8 +9,16 @@ public class Truck extends Car {
     public Truck(int avgSpeed, int power, int fuelConsumption, String brand, String model, int carNumber, String color,
                  int maxWeight, float bodyVolume) {
         super(avgSpeed, power, fuelConsumption, brand, model, carNumber, color);
-        this.maxWeight = maxWeight;
-        this.bodyVolume = bodyVolume;
+        if(maxWeight<0){
+            throw new ArithmeticException("Max weight cannot be negative!");
+        }else {
+            this.maxWeight = maxWeight;
+        }
+        if(bodyVolume<0){
+            throw new ArithmeticException("Body volume cannot be negative!");
+        }else {
+            this.bodyVolume = bodyVolume;
+        }
     }
 
     public void setMaxWeight(int maxWeight) {

@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1f77030-914b-4115-8f17-159cefb6985f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/solvd/taxi/enums/TransportType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/TwoWheeled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/solvd/taxi/enums/OrderPriority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/solvd/taxi/interfaces/JobApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/solvd/taxi/other/OrderDelivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/solvd/taxi/other/OrderTaxi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/enums/TaxiClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/enums/TaxiClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/enums/TaxiType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/enums/TaxiType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/other/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/interfaces/Delivery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/other/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/other/Discount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/other/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/other/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/person/Courier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/person/Courier.java" afterDir="false" />
@@ -16,12 +15,6 @@
       <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/person/Dispatchers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/person/Dispatchers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/person/Drivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/person/Drivers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/person/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/person/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/person/Mechanics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/person/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Bicycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Motorbike.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Scooter.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Taxi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Taxi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Truck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Vehicle.java" afterDir="false" />
@@ -34,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
         <option value="Enum" />
       </list>
     </option>
@@ -52,18 +45,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.solvd.taxi" />

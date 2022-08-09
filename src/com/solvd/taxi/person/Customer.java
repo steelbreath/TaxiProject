@@ -13,7 +13,11 @@ public class Customer extends Person {
         super(fullName, city);
         this.phoneNumber = phoneNumber;
         this.email = email;
-        this.rating = rating;
+        if((rating<0)||(rating>5)){
+            throw new ArithmeticException("Choose from 0 to 5!");
+        }else {
+            this.rating = rating;
+        }
     }
 
     public void setPhoneNumber(int phoneNumber) {

@@ -8,9 +8,19 @@ public class Discount {
     public Discount() {}
 
     public Discount(int amount, int promoCode) {
-        this.amount = amount;
-        this.promoCode = promoCode;
         generatePromoCodes();
+        if((amount>100)||(amount<0)){
+            throw new ArithmeticException("Something went wrong! Please try again.");
+        }else {
+            this.amount = amount;
+        }
+        for (int i=0;i<5;i++) {
+            if (promoCode != this.promoCodes[i]) {
+                System.out.println("Invalid promo code");
+            } else {
+                this.promoCode = promoCode;
+            }
+        }
     }
 
     public void setAmount(int amount) {

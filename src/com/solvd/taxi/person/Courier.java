@@ -1,8 +1,9 @@
 package com.solvd.taxi.person;
 
 import com.solvd.taxi.interfaces.Delivery;
+import com.solvd.taxi.interfaces.JobApplication;
 
-public class Courier extends Employee implements Delivery {
+public class Courier extends Employee implements Delivery, JobApplication {
     private float rating;
     private int quantityOfOrders;
     private int workingHours;
@@ -12,9 +13,21 @@ public class Courier extends Employee implements Delivery {
     public Courier(String fullName, String city, int experience, int salary,
                    float rating, int quantityOfOrders, int workingHours) {
         super(fullName, city, experience, salary);
-        this.rating = rating;
-        this.quantityOfOrders = quantityOfOrders;
-        this.workingHours = workingHours;
+        if((rating<0)||(rating>5)){
+            throw new ArithmeticException("Choose from 0 to 5!");
+        }else {
+            this.rating = rating;
+        }
+        if(quantityOfOrders<0){
+            throw new ArithmeticException("Quantity of orders cannot be negative!");
+        }else {
+            this.quantityOfOrders = quantityOfOrders;
+        }
+        if(workingHours<0){
+            throw new ArithmeticException("Working hours cannot be negative!");
+        }else {
+            this.workingHours = workingHours;
+        }
     }
 
     public void setRating(float rating) {
@@ -64,6 +77,16 @@ public class Courier extends Employee implements Delivery {
 
     @Override
     public void deliver() {
+
+    }
+
+    @Override
+    public void applyForJob() {
+
+    }
+
+    @Override
+    public void yourTransportParameters() {
 
     }
 }

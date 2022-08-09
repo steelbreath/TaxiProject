@@ -8,8 +8,16 @@ public abstract class Employee extends Person {
 
     public Employee(String fullName, String city, int experience, int salary) {
         super(fullName, city);
-        this.experience = experience;
-        this.salary = salary;
+        if(experience<0){
+            throw new ArithmeticException("Experience cannot be negative!");
+        }else {
+            this.experience = experience;
+        }
+        if(salary<0){
+            throw new ArithmeticException("Salary cannot be negative!");
+        }else {
+            this.salary = salary;
+        }
     }
 
     public void setExperience(int experience) {
