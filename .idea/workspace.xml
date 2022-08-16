@@ -1,31 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f77030-914b-4115-8f17-159cefb6985f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaxiProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/enums/OrderPriority.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/enums/TaxiClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/enums/TaxiType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/enums/TransportType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/interfaces/Delivery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/interfaces/JobApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/other/Discount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/other/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/other/OrderDelivery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/other/OrderTaxi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/person/Courier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/person/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/person/Dispatchers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/person/Drivers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/person/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/person/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Taxi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Truck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/TwoWheeled.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/taxi/vehicle/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/enums/OrderPriority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/enums/OrderPriority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/enums/TaxiClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/enums/TaxiClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/enums/TaxiType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/enums/TaxiType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/enums/TransportType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/enums/TransportType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/generic/Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/generic/Generic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/interfaces/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/interfaces/Delivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/interfaces/JobApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/interfaces/JobApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/other/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/other/Discount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/other/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/other/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/other/OrderDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/other/OrderDelivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/other/OrderTaxi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/other/OrderTaxi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Courier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Courier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Dispatchers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Dispatchers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Drivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Drivers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/vehicle/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/vehicle/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/vehicle/Taxi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/vehicle/Taxi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/vehicle/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/vehicle/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/vehicle/TwoWheeled.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/vehicle/TwoWheeled.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/vehicle/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/recources/log4j2.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +82,23 @@
       <recent name="com.solvd.taxi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main.java.com.solvd.taxi.Main">
+  <component name="RunManager" selected="Application.com.solvd.taxi.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="TaxiProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.solvd.taxi.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.solvd.taxi.Main" />
+      <module name="TaxiProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solvd.taxi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.solvd.taxi.Main" />
         <item itemvalue="Application.main.java.com.solvd.taxi.Main" />
         <item itemvalue="Application.Main" />
       </list>

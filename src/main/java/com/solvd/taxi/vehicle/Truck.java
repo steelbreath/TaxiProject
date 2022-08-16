@@ -1,4 +1,4 @@
-package main.java.com.solvd.taxi.vehicle;
+package com.solvd.taxi.vehicle;
 
 public class Truck extends Car {
     private int maxWeight;

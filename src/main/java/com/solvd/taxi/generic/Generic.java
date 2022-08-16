@@ -1,4 +1,4 @@
-package main.java.com.solvd.taxi.generic;
+package com.solvd.taxi.generic;
 
 public class Generic <T> {
         private T t;

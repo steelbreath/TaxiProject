@@ -1,4 +1,4 @@
-package main.java.com.solvd.taxi.interfaces;
+package com.solvd.taxi.interfaces;
 
 public interface JobApplication {
     public void applyForJob();

@@ -1,6 +1,6 @@
-package main.java.com.solvd.taxi.vehicle;
+package com.solvd.taxi.vehicle;
 
-import main.java.com.solvd.taxi.enums.TransportType;
+import com.solvd.taxi.enums.TransportType;
 
 public class TwoWheeled extends Vehicle {
     private TransportType type;

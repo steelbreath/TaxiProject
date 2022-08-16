@@ -1,4 +1,4 @@
-package main.java.com.solvd.taxi.enums;
+package com.solvd.taxi.enums;
 
 public enum TransportType {
     MOTORBIKE("motorbike"),

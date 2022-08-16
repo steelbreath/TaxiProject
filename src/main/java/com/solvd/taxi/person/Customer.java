@@ -1,6 +1,4 @@
-package main.java.com.solvd.taxi.person;
-
-import main.java.com.solvd.taxi.other.Discount;
+package com.solvd.taxi.person;
 
 public class Customer extends Person {
     private int phoneNumber;

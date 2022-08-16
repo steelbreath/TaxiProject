@@ -1,6 +1,4 @@
-package main.java.com.solvd.taxi.other;
-
-import java.util.Date;
+package com.solvd.taxi.other;
 
 public class OrderTaxi extends Order {
     private String start; //exception

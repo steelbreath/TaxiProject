@@ -1,6 +1,6 @@
-package main.java.com.solvd.taxi;
+package com.solvd.taxi;
 
-import main.java.com.solvd.taxi.other.OrderTaxi;
+import com.solvd.taxi.other.OrderTaxi;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.logging.Logger;

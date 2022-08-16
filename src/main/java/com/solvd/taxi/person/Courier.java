@@ -1,7 +1,7 @@
-package main.java.com.solvd.taxi.person;
+package com.solvd.taxi.person;
 
-import main.java.com.solvd.taxi.interfaces.Delivery;
-import main.java.com.solvd.taxi.interfaces.JobApplication;
+import com.solvd.taxi.interfaces.Delivery;
+import com.solvd.taxi.interfaces.JobApplication;
 
 public class Courier extends Employee implements Delivery, JobApplication {
     private float rating;

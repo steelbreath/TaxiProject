@@ -1,4 +1,4 @@
-package main.java.com.solvd.taxi.person;
+package com.solvd.taxi.person;
 
 public abstract class Employee extends Person {
     private int experience;

@@ -1,4 +1,4 @@
-package main.java.com.solvd.taxi.other;
+package com.solvd.taxi.other;
 
 public class Discount {
     private int amount;

@@ -1,6 +1,6 @@
-package main.java.com.solvd.taxi.other;
+package com.solvd.taxi.other;
 
-import main.java.com.solvd.taxi.enums.OrderPriority;
+import com.solvd.taxi.enums.OrderPriority;
 
 public class OrderDelivery extends Order {
     private String address;

@@ -1,7 +1,7 @@
-package main.java.com.solvd.taxi.vehicle;
+package com.solvd.taxi.vehicle;
 
-import main.java.com.solvd.taxi.enums.TaxiClass;
-import main.java.com.solvd.taxi.enums.TaxiType;
+import com.solvd.taxi.enums.TaxiClass;
+import com.solvd.taxi.enums.TaxiType;
 
 public class Taxi extends Car {
     private TaxiClass clas;

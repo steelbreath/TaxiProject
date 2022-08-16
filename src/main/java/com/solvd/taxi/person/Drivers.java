@@ -1,6 +1,6 @@
-package main.java.com.solvd.taxi.person;
+package com.solvd.taxi.person;
 
-import main.java.com.solvd.taxi.interfaces.JobApplication;
+import com.solvd.taxi.interfaces.JobApplication;
 
 public class Drivers extends Employee implements JobApplication {
     private float rating;
