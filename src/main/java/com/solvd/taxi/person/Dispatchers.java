@@ -44,7 +44,7 @@ public class Dispatchers extends Employee implements JobApplication {
     }
 
     @Override
-    public void yourTransportParameters() {
+    public void describeTransport() {
 
     }
     public void takeOrder() {}

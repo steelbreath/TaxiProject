@@ -81,12 +81,17 @@ public class Courier extends Employee implements Delivery, JobApplication {
     }
 
     @Override
+    public void getOrder() {
+
+    }
+
+    @Override
     public void applyForJob() {
 
     }
 
     @Override
-    public void yourTransportParameters() {
+    public void describeTransport() {
 
     }
 

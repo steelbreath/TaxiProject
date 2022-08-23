@@ -1,0 +1,119 @@
+2022-08-17 00:28:18 INFO  Main:11 - Hello world
+2022-08-17 00:28:18 INFO  Main:12 - Hello world
+2022-08-17 00:28:18 INFO  Main:13 - Hello world
+2022-08-17 00:28:18 INFO  Main:25 - Hello world
+2022-08-17 00:31:38 ERROR Main:21 - Hello world
+2022-08-17 00:34:53 WARN  Main:21 - Hello world
+2022-08-17 00:35:57 DEBUG Main:21 - Hello world
+2022-08-17 00:39:57 DEBUG Main:22 - Hello world
+2022-08-17 00:45:26 DEBUG Main:22 - Hello world
+2022-08-18 21:30:38 DEBUG Main:24 - Hello world
+2022-08-18 21:33:59 DEBUG Main:24 - Hello world
+2022-08-18 21:34:28 DEBUG Main:24 - Hello world
+2022-08-18 21:35:12 DEBUG Main:24 - Hello world
+2022-08-18 21:36:32 DEBUG Main:24 - Hello world
+2022-08-18 21:36:52 DEBUG Main:24 - Hello world
+2022-08-18 21:37:10 DEBUG Main:24 - Hello world
+2022-08-18 21:42:36 DEBUG Main:24 - Hello world
+2022-08-18 21:47:27 DEBUG Main:24 - Hello world
+2022-08-18 23:06:24 DEBUG Main:25 - Hello world
+2022-08-18 23:12:18 DEBUG Main:25 - Hello world
+2022-08-18 23:32:59 DEBUG Main:25 - Hello world
+2022-08-18 23:36:04 DEBUG Main:25 - Hello world
+2022-08-18 23:36:04 INFO  Main:34 - 
+2022-08-18 23:43:13 INFO  Main:25 - f'm it the cetteb
+2022-08-18 23:43:13 INFO  Main:26 - I like him
+2022-08-18 23:43:34 INFO  Main:25 - f'm it the cetteb
+2022-08-18 23:43:34 INFO  Main:26 - ike him
+2022-08-18 23:46:46 INFO  Main:25 - f'm it the cetteb
+2022-08-18 23:46:46 INFO  Main:26 - ike him
+2022-08-18 23:46:46 INFO  Main:27 - DIFHBV
+2022-08-18 23:47:59 INFO  Main:25 - f'm it the cetteb
+2022-08-18 23:47:59 INFO  Main:26 - ike him
+2022-08-18 23:47:59 INFO  Main:27 - DIFHBV
+2022-08-18 23:47:59 INFO  Main:28 - or...
+2022-08-18 23:48:20 INFO  Main:25 - f'm it the cetteb
+2022-08-18 23:48:20 INFO  Main:26 - ike him
+2022-08-18 23:48:20 INFO  Main:27 - DIFHBV
+2022-08-18 23:48:20 INFO  Main:28 - orijgpi
+2022-08-18 23:48:32 INFO  Main:25 - f'm it the cetteb
+2022-08-18 23:48:32 INFO  Main:26 - ike him
+2022-08-18 23:48:32 INFO  Main:27 - DIFHBV
+2022-08-18 23:48:32 INFO  Main:28 - orijgpi
+2022-08-18 23:49:01 INFO  Main:25 - f'm it the cetteb
+2022-08-18 23:49:01 INFO  Main:26 - ike him
+2022-08-18 23:49:01 INFO  Main:27 - DIFHBV
+2022-08-18 23:49:01 INFO  Main:28 - ori...
+2022-08-18 23:51:56 INFO  Main:25 - f'm it the cetteb
+2022-08-18 23:51:56 INFO  Main:26 - ike him
+2022-08-18 23:51:56 INFO  Main:27 - DIFHBV
+2022-08-18 23:51:56 INFO  Main:28 - ori...
+2022-08-22 19:31:00 INFO  Main:24 - f'm it the cetteb
+2022-08-22 19:31:00 INFO  Main:25 - ike him
+2022-08-22 19:31:00 INFO  Main:26 - DIFHBV
+2022-08-22 19:31:00 INFO  Main:27 - ori...
+2022-08-22 22:26:27 INFO  Main:24 - f'm it the cetteb
+2022-08-22 22:26:27 INFO  Main:25 - ike him
+2022-08-22 22:26:27 INFO  Main:26 - DIFHBV
+2022-08-22 22:26:27 INFO  Main:27 - ori...
+2022-08-22 22:27:02 INFO  Main:24 - f'm it the cetteb
+2022-08-22 22:27:02 INFO  Main:25 - ike him
+2022-08-22 22:27:02 INFO  Main:26 - DIFHBV
+2022-08-22 22:27:02 INFO  Main:27 - ori...
+2022-08-23 00:32:10 INFO  Main:26 - f'm it the cetteb
+2022-08-23 00:32:10 INFO  Main:27 - ike him
+2022-08-23 00:32:10 INFO  Main:28 - DIFHBV
+2022-08-23 00:32:10 INFO  Main:29 - ori...
+2022-08-23 00:42:15 INFO  Main:26 - f'm it the cetteb
+2022-08-23 00:42:15 INFO  Main:27 - ike him
+2022-08-23 00:42:15 INFO  Main:28 - DIFHBV
+2022-08-23 00:42:15 INFO  Main:29 - ori...
+2022-08-23 00:42:15 INFO  Main:45 - Your salary is 2000
+2022-08-23 00:42:15 INFO  Main:51 - Your trip will take 100000 minutes
+2022-08-23 00:44:41 INFO  Main:26 - f'm it the cetteb
+2022-08-23 00:44:41 INFO  Main:27 - ike him
+2022-08-23 00:44:41 INFO  Main:28 - DIFHBV
+2022-08-23 00:44:41 INFO  Main:29 - ori...
+2022-08-23 00:44:42 INFO  Main:45 - Your salary is 2000
+2022-08-23 00:44:42 INFO  Main:51 - Your trip will take 100000 minutes
+2022-08-23 00:49:55 INFO  Main:26 - f'm it the cetteb
+2022-08-23 00:49:55 INFO  Main:27 - ike him
+2022-08-23 00:49:55 INFO  Main:28 - DIFHBV
+2022-08-23 00:49:55 INFO  Main:29 - ori...
+2022-08-23 00:49:55 INFO  Main:45 - Your salary is 2000
+2022-08-23 00:49:55 INFO  Main:51 - Your trip will take 100000 minutes
+2022-08-23 00:50:13 INFO  Main:67 - java.util.Scanner[delimiters=\p{javaWhitespace}+][position=2][match valid=true][need input=false][source closed=false][skipped=false][group separator=\x{a0}][decimal separator=\x{2c}][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q∞\E]?java.util.Scanner[delimiters=\p{javaWhitespace}+][position=2][match valid=true][need input=false][source closed=false][skipped=false][group separator=\x{a0}][decimal separator=\x{2c}][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q∞\E]
+2022-08-23 00:51:14 INFO  Main:26 - f'm it the cetteb
+2022-08-23 00:51:14 INFO  Main:27 - ike him
+2022-08-23 00:51:14 INFO  Main:28 - DIFHBV
+2022-08-23 00:51:14 INFO  Main:29 - ori...
+2022-08-23 00:51:14 INFO  Main:45 - Your salary is 2000
+2022-08-23 00:51:14 INFO  Main:51 - Your trip will take 100000 minutes
+2022-08-23 00:52:26 INFO  Main:26 - f'm it the cetteb
+2022-08-23 00:52:26 INFO  Main:27 - ike him
+2022-08-23 00:52:26 INFO  Main:28 - DIFHBV
+2022-08-23 00:52:26 INFO  Main:29 - ori...
+2022-08-23 00:52:26 INFO  Main:45 - Your salary is 2000
+2022-08-23 00:52:26 INFO  Main:51 - Your trip will take 100000 minutes
+2022-08-23 00:54:08 INFO  Main:26 - f'm it the cetteb
+2022-08-23 00:54:08 INFO  Main:27 - ike him
+2022-08-23 00:54:08 INFO  Main:28 - DIFHBV
+2022-08-23 00:54:08 INFO  Main:29 - ori...
+2022-08-23 00:54:08 INFO  Main:45 - Your salary is 2000
+2022-08-23 00:54:08 INFO  Main:51 - Your trip will take 100000 minutes
+2022-08-23 00:54:46 INFO  Main:26 - f'm it the cetteb
+2022-08-23 00:54:46 INFO  Main:27 - ike him
+2022-08-23 00:54:46 INFO  Main:28 - DIFHBV
+2022-08-23 00:54:46 INFO  Main:29 - ori...
+2022-08-23 00:54:46 INFO  Main:45 - Your salary is 2000
+2022-08-23 00:54:46 INFO  Main:51 - Your trip will take 100000 minutes
+2022-08-23 00:55:03 INFO  Main:26 - f'm it the cetteb
+2022-08-23 00:55:03 INFO  Main:27 - ike him
+2022-08-23 00:55:03 INFO  Main:28 - DIFHBV
+2022-08-23 00:55:03 INFO  Main:29 - ori...
+2022-08-23 00:55:03 INFO  Main:45 - Your salary is 2000
+2022-08-23 00:55:03 INFO  Main:51 - Your trip will take 100000 minutes
+2022-08-23 15:52:14 INFO  Main:26 - f'm it the cetteb
+2022-08-23 15:52:14 INFO  Main:27 - ike him
+2022-08-23 15:52:14 INFO  Main:28 - DIFHBV
+2022-08-23 15:52:14 INFO  Main:29 - ori...
