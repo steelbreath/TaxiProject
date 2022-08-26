@@ -1,18 +1,22 @@
 package com.solvd.taxi;
 
-import com.solvd.taxi.interfaces.SalaryCounter;
-import com.solvd.taxi.interfaces.TravelTime;
-import com.solvd.taxi.other.*;
-import java.io.IOException;
-import java.util.*;
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang3.StringUtils;
+import com.solvd.taxi.threads.*;
 import org.apache.log4j.*;
-import java.io.File;
+
 public class Main {
     public static Logger LOGGER = Logger.getLogger(Main.class);
     public static void main(String[] args) {
-        OrderTaxi orderTaxi1 = new OrderTaxi();
+
+        MyThread1 myThread1 = new MyThread1();
+
+        MyRunnable myRunnable = new MyRunnable();
+        Thread myThread2 = new Thread(myRunnable);
+
+        myThread1.start();
+        myThread2.start();
+        LOGGER.info(Thread.currentThread().getName());
+
+        /*OrderTaxi orderTaxi1 = new OrderTaxi();
         OrderTaxi orderTaxi2 = new OrderTaxi(2939875,1000,"difhbv","orijgpi");
         Set<Integer> orders = new HashSet<>();
         orders.add(2939870);
@@ -59,6 +63,7 @@ public class Main {
         Scanner myObj = new Scanner(System.in);
         int x = myObj.nextInt();
         int y = myObj.nextInt();
-        System.out.println((x > y) ? "x>y" : "x<y");
+        System.out.println((x > y) ? "x>y" : "x<y");*/
+
     }
 }

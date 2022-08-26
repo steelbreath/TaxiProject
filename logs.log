@@ -119,3 +119,46 @@
 2022-08-23 15:52:14 INFO  Main:29 - ori...
 2022-08-23 15:52:14 INFO  Main:41 - Your salary is 2000
 2022-08-23 15:52:14 INFO  Main:47 - Your trip will take 100000 minutes
+2022-08-24 19:17:50 INFO  Main:14 - main
+2022-08-24 19:17:50 INFO  MyThread1:9 - Thread-0
+2022-08-24 19:17:50 INFO  MyRunnable:9 - Thread-1
+2022-08-24 21:57:22 INFO  Main:21 - main
+2022-08-24 21:57:22 INFO  MyThread1:11 - Thread-0 start
+2022-08-24 21:57:22 INFO  MyRunnable:9 - Thread-1
+2022-08-24 22:06:14 INFO  Main:21 - main
+2022-08-24 22:06:14 INFO  MyRunnable:19 - Thread-1
+2022-08-24 22:06:14 INFO  MyThread1:28 - Thread-0
+2022-08-24 22:07:11 INFO  Main:21 - main
+2022-08-24 22:07:11 INFO  MyThread1:28 - Thread-0
+2022-08-24 22:07:11 INFO  MyRunnable:19 - Thread-1
+2022-08-24 22:08:04 INFO  Main:21 - main
+2022-08-24 22:08:04 INFO  MyThread1:28 - Thread-0
+2022-08-24 22:08:04 INFO  MyRunnable:19 - Thread-1
+2022-08-24 22:09:54 INFO  Main:21 - main
+2022-08-24 22:09:54 INFO  MyRunnable:19 - Thread-1
+2022-08-24 22:09:54 INFO  MyThread1:24 - Thread-0
+2022-08-24 22:10:43 INFO  Main:21 - main
+2022-08-24 22:10:43 INFO  MyThread1:21 - Thread-0
+2022-08-24 22:10:43 INFO  MyRunnable:24 - Thread-1
+2022-08-24 22:11:41 INFO  Main:17 - main
+2022-08-24 22:11:41 INFO  MyRunnable:24 - Thread-1
+2022-08-24 22:11:41 INFO  MyThread1:21 - Thread-0
+2022-08-24 22:28:45 INFO  Main:23 - main
+2022-08-24 22:28:45 INFO  MyThread1:29 - Thread-0
+2022-08-24 22:28:45 INFO  MyRunnable:22 - Thread-1
+2022-08-24 22:29:44 INFO  MyThread1:10 - main start
+2022-08-24 22:29:44 INFO  MyThread1:23 - main end
+2022-08-24 22:29:44 INFO  MyRunnable:10 - main start
+2022-08-24 22:29:44 INFO  MyRunnable:16 - main end
+2022-08-24 22:29:44 INFO  Main:23 - main
+2022-08-24 22:29:44 INFO  MyThread1:29 - Thread-0
+2022-08-24 22:29:44 INFO  MyRunnable:22 - Thread-1
+2022-08-24 22:31:43 INFO  Main:17 - main
+2022-08-24 22:31:43 INFO  MyThread1:11 - Thread-0
+2022-08-24 22:31:43 INFO  MyRunnable:11 - Thread-1
+2022-08-24 22:34:40 INFO  Main:17 - main
+2022-08-24 22:34:40 INFO  MyThread1:11 - Thread-0
+2022-08-24 22:34:40 INFO  MyRunnable:11 - Thread-1
+2022-08-26 18:40:33 INFO  Main:17 - main
+2022-08-26 18:40:33 INFO  MyRunnable:11 - Thread-1
+2022-08-26 18:40:33 INFO  MyThread1:11 - Thread-0

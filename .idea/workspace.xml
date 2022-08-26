@@ -5,28 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f77030-914b-4115-8f17-159cefb6985f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/interfaces/SalaryCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/interfaces/TravelTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/threads/Deadlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/threads/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/threads/MyThread1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/interfaces/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/interfaces/Delivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/interfaces/JobApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/interfaces/JobApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Courier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Courier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Dispatchers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Dispatchers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Drivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/taxi/person/Drivers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/taxi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/solvd/taxi/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/taxi/interfaces/Delivery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/solvd/taxi/interfaces/Delivery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/taxi/interfaces/JobApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/solvd/taxi/interfaces/JobApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/taxi/person/Courier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/solvd/taxi/person/Courier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/taxi/person/Dispatchers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/solvd/taxi/person/Dispatchers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/taxi/person/Drivers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/solvd/taxi/person/Drivers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,7 +62,20 @@
       <recent name="com.solvd.taxi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.solvd.taxi.Main">
+  <component name="RunManager" selected="Application.Deadlock">
+    <configuration name="Deadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.solvd.taxi.threads.Deadlock" />
+      <module name="TaxiProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solvd.taxi.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="TaxiProject" />
@@ -112,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Deadlock" />
         <item itemvalue="Application.com.solvd.taxi.Main" />
         <item itemvalue="Application.main.java.com.solvd.taxi.Main" />
         <item itemvalue="Application.Main" />
