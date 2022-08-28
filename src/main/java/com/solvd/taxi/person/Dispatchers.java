@@ -7,7 +7,6 @@ public class Dispatchers extends Employee implements JobApplication {
     private boolean busy;
 
     public Dispatchers() {}
-
     public Dispatchers(String fullName, String city, int experience, int salary, String kindOfProblem, boolean busy) {
         super(fullName, city, experience, salary);
         this.kindOfProblem = kindOfProblem;
@@ -17,19 +16,15 @@ public class Dispatchers extends Employee implements JobApplication {
     public void setKindOfProblem(String kindOfProblem) {
         this.kindOfProblem = kindOfProblem;
     }
-
     public String getKindOfProblem() {
         return kindOfProblem;
     }
-
     public void setBusy(boolean busy) {
         this.busy = busy;
     }
-
     public boolean isBusy() {
         return busy;
     }
-
     @Override
     public String toString() {
         return "Dispatchers{" +
@@ -37,16 +32,13 @@ public class Dispatchers extends Employee implements JobApplication {
                 ", busy=" + busy +
                 "} " + super.toString();
     }
-
     @Override
     public void applyForJob() {
 
     }
-
     @Override
     public void describeTransport() {
 
     }
     public void takeOrder() {}
-
 }

@@ -5,7 +5,6 @@ public abstract class Employee extends Person {
     private int salary;
 
     public Employee() {}
-
     public Employee(String fullName, String city, int experience, int salary) {
         super(fullName, city);
         if(experience<0){
@@ -27,11 +26,9 @@ public abstract class Employee extends Person {
             this.experience = experience;
         }
     }
-
     public int getExperience() {
         return experience;
     }
-
     public void setSalary(int salary) {
         if(salary<0){
             throw new ArithmeticException("Salary cannot be negative!");
@@ -39,11 +36,9 @@ public abstract class Employee extends Person {
             this.salary = salary;
         }
     }
-
     public int getSalary() {
         return salary;
     }
-
     @Override
     public String toString() {
         return "Employee{" +

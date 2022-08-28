@@ -9,15 +9,12 @@ public class Deadlock {
         Thread thread1 = new Thread(() -> {
             System.out.println(Thread.currentThread().getName() + " start");
             synchronized (lock1) {
-
                 try {
                     Thread.sleep(100);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                synchronized (lock2) {
-
-                }
+                synchronized (lock2) {}
             }
             System.out.println(Thread.currentThread().getName() + " end");
         }, "Thread1");
@@ -25,9 +22,7 @@ public class Deadlock {
         Thread thread2 = new Thread(() -> {
             System.out.println(Thread.currentThread().getName() + " start");
             synchronized (lock2) {
-                synchronized (lock1) {
-
-                }
+                synchronized (lock1) {}
             }
             System.out.println(Thread.currentThread().getName() + " end");
         }, "Thread2");

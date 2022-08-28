@@ -11,9 +11,7 @@ public class Generic <T> {
         public void setT(T t) {
             this.t = t;
         }
-
         public T getT() {
             return t;
         }
-
 }

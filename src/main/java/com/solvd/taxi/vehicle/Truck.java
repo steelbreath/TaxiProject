@@ -5,7 +5,6 @@ public class Truck extends Car {
     private float bodyVolume;
 
     public Truck() {}
-
     public Truck(int avgSpeed, int power, int fuelConsumption, String brand, String model, int carNumber, String color,
                  int maxWeight, float bodyVolume) {
         super(avgSpeed, power, fuelConsumption, brand, model, carNumber, color);
@@ -28,11 +27,9 @@ public class Truck extends Car {
             this.maxWeight = maxWeight;
         }
     }
-
     public int getMaxWeight() {
         return maxWeight;
     }
-
     public void setBodyVolume(float bodyVolume) {
         if(bodyVolume<0){
             throw new ArithmeticException("Body volume cannot be negative!");
@@ -40,11 +37,9 @@ public class Truck extends Car {
             this.bodyVolume = bodyVolume;
         }
     }
-
     public float getBodyVolume() {
         return bodyVolume;
     }
-
     @Override
     public String toString() {
         return "Truck{" +

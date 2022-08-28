@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 
 public class MyThread1 extends Thread{
     public static Logger LOGGER = Logger.getLogger(MyThread1.class);
+
     public MyThread1(){}
 
     @Override

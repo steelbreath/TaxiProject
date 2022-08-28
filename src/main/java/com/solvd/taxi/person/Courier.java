@@ -9,7 +9,6 @@ public class Courier extends Employee implements Delivery, JobApplication {
     private int workingHours;
 
     public Courier() {}
-
     public Courier(String fullName, String city, int experience, int salary,
                    float rating, int quantityOfOrders, int workingHours) {
         super(fullName, city, experience, salary);
@@ -37,11 +36,9 @@ public class Courier extends Employee implements Delivery, JobApplication {
             this.rating = rating;
         }
     }
-
     public float getRating() {
         return rating;
     }
-
     public void setQuantityOfOrders(int quantityOfOrders) {
         if(quantityOfOrders<0){
             throw new ArithmeticException("Quantity of orders cannot be negative!");
@@ -49,11 +46,9 @@ public class Courier extends Employee implements Delivery, JobApplication {
             this.quantityOfOrders = quantityOfOrders;
         }
     }
-
     public int getQuantityOfOrders() {
         return quantityOfOrders;
     }
-
     public void setWorkingHours(int workingHours) {
         if(workingHours<0){
             throw new ArithmeticException("Working hours cannot be negative!");
@@ -61,11 +56,9 @@ public class Courier extends Employee implements Delivery, JobApplication {
             this.workingHours = workingHours;
         }
     }
-
     public int getWorkingHours() {
         return workingHours;
     }
-
     @Override
     public String toString() {
         return "Courier{" +
@@ -74,25 +67,20 @@ public class Courier extends Employee implements Delivery, JobApplication {
                 ", workingHours=" + workingHours +
                 "} " + super.toString();
     }
-
     @Override
     public void deliver() {
 
     }
-
     @Override
     public void getOrder() {
 
     }
-
     @Override
     public void applyForJob() {
 
     }
-
     @Override
     public void describeTransport() {
 
     }
-
 }

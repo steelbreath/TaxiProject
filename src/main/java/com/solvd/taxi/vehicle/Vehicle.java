@@ -6,7 +6,6 @@ public abstract class Vehicle {
     private int fuelConsumption;
 
     public Vehicle() {}
-
     public Vehicle(int avgSpeed, int power, int fuelConsumption) {
         if(avgSpeed<0){
             throw new ArithmeticException("Average speed cannot be negative!");
@@ -32,11 +31,9 @@ public abstract class Vehicle {
             this.avgSpeed = avgSpeed;
         }
     }
-
     public int getAvgSpeed() {
         return avgSpeed;
     }
-
     public void setPower(int power) {
         if(power<0){
             throw new ArithmeticException("Power cannot be negative!");
@@ -45,11 +42,9 @@ public abstract class Vehicle {
         }
 
     }
-
     public int getPower() {
         return power;
     }
-
     public void setFuelConsumption(int fuelConsumption) {
         if(fuelConsumption<0){
             throw new ArithmeticException("Experience cannot be negative!");
@@ -57,11 +52,9 @@ public abstract class Vehicle {
             this.fuelConsumption = fuelConsumption;
         }
     }
-
     public int getFuelConsumption() {
         return fuelConsumption;
     }
-
     @Override
     public String toString() {
         return "Vehicle{" +
