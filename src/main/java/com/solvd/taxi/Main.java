@@ -67,5 +67,6 @@ public class Main {
         int x = myObj.nextInt();
         int y = myObj.nextInt();
         System.out.println((x > y) ? "x>y" : "x<y");
+
     }
 }
