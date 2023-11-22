@@ -7,7 +7,8 @@ import com.solvd.taxi.threads.MyRunnable;
 import com.solvd.taxi.threads.MyThread1;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashSet;
@@ -15,7 +16,7 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class Main {
-    public static Logger LOGGER = Logger.getLogger(Main.class);
+    public static Logger LOGGER = LogManager.getLogger(Main.class);
     public static void main(String[] args) {
 
         MyThread1 myThread1 = new MyThread1();

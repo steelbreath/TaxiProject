@@ -4,15 +4,19 @@ import com.solvd.taxi.enums.OrderPriority;
 
 public class OrderDelivery extends Order {
     private String address;
-    private String meals;
+    private String[] meals;
     private OrderPriority orderPriority;
 
-    OrderDelivery() {}
-    OrderDelivery(int id, double price, String address, String meals, OrderPriority orderPriority) {
-        super(id, price);
-        this.address = address;
-        this.meals = meals;
-        this.orderPriority = orderPriority;
+    public OrderDelivery() {}
+    public OrderDelivery(Builder builder) {
+        super(builder.id, builder.price);
+        this.address = builder.address;
+        this.meals = builder.meals;
+        this.orderPriority = builder.orderPriority;
+    }
+
+    public static Builder builder(){
+        return new Builder();
     }
 
     public void setAddress(String address) {
@@ -21,10 +25,10 @@ public class OrderDelivery extends Order {
     public String getAddress() {
         return address;
     }
-    public void setMeals(String meals) {
+    public void setMeals(String[] meals) {
         this.meals = meals;
     }
-    public String getMeals() {
+    public String[] getMeals() {
         return meals;
     }
     public void setOrderPriority(OrderPriority orderPriority) {
@@ -40,5 +44,42 @@ public class OrderDelivery extends Order {
                 ", meals='" + meals + '\'' +
                 ", orderPriority=" + orderPriority +
                 "} " + super.toString();
+    }
+
+    public static class Builder {
+        private int id;
+        private double price;
+        private String address;
+        private String[] meals;
+        private OrderPriority orderPriority;
+
+        public Builder setId(int id) {
+            this.id = id;
+            return this;
+        }
+
+        public Builder setPrice(double price) {
+            this.price = price;
+            return this;
+        }
+
+        public Builder setAddress(String address) {
+            this.address = address;
+            return this;
+        }
+
+        public Builder setMeals(String[] meals) {
+            this.meals = meals;
+            return this;
+        }
+
+        public Builder setOrderPriority(OrderPriority orderPriority) {
+            this.orderPriority = orderPriority;
+            return this;
+        }
+
+        public OrderDelivery build() {
+            return new OrderDelivery(this);
+        }
     }
 }

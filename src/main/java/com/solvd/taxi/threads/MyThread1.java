@@ -1,9 +1,10 @@
 package com.solvd.taxi.threads;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class MyThread1 extends Thread{
-    public static Logger LOGGER = Logger.getLogger(MyThread1.class);
+    public static Logger LOGGER = LogManager.getLogger(MyThread1.class);
 
     public MyThread1(){}
 

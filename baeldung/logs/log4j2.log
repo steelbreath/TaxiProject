@@ -1,0 +1,12 @@
+[INFO ] 2023-11-20 20:45:39.528 [main] Test - OrderDelivery{address='blabla', meals='null', orderPriority=null} Order{id=1, date=Mon Nov 20 20:45:39 EET 2023, price=0.0}
+[INFO ] 2023-11-21 12:16:06.768 [main] Test - OrderDelivery{address='blabla', meals='null', orderPriority=null} Order{id=1, date=Tue Nov 21 12:16:06 EET 2023, price=0.0}
+[INFO ] 2023-11-21 12:16:06.875 [main] Customer - Customer get car location! x:2,y:3.
+[INFO ] 2023-11-21 12:17:01.232 [main] Test - OrderDelivery{address='blabla', meals='null', orderPriority=null} Order{id=1, date=Tue Nov 21 12:17:01 EET 2023, price=0.0}
+[INFO ] 2023-11-21 12:17:01.316 [main] Dispatcher - Dispatcher get car location! x:2,y:3.
+[INFO ] 2023-11-21 12:17:01.316 [main] Customer - Customer get car location! x:2,y:3.
+[INFO ] 2023-11-21 20:33:43.208 [main] Test - OrderDelivery{address='blabla', meals='null', orderPriority=null} Order{id=1, date=Tue Nov 21 20:33:42 EET 2023, price=0.0}
+[INFO ] 2023-11-21 20:33:43.382 [main] Dispatcher - Dispatcher get car location! x:2,y:3.
+[INFO ] 2023-11-21 20:33:43.383 [main] Customer - Customer get car location! x:2,y:3.
+[INFO ] 2023-11-21 23:29:46.822 [main] Test - OrderDelivery{address='blabla', meals='null', orderPriority=null} Order{id=1, date=Tue Nov 21 23:29:46 EET 2023, price=0.0}
+[INFO ] 2023-11-21 23:29:46.879 [main] Dispatcher - Dispatcher get car location! x:2,y:3.
+[INFO ] 2023-11-21 23:29:46.879 [main] Customer - Customer get car location! x:2,y:3.

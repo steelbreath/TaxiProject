@@ -2,12 +2,12 @@ package com.solvd.taxi.person;
 
 import com.solvd.taxi.interfaces.JobApplication;
 
-public class Drivers extends Employee implements JobApplication {
+public class Driver extends Employee implements JobApplication {
     private float rating;
     private float km;
 
-    public Drivers() {}
-    public Drivers(String fullName, String city,int experience, int salary, float rating, float km) {
+    public Driver() {}
+    public Driver(String fullName, String city, int experience, int salary, float rating, float km) {
         super(fullName, city, experience, salary);
         if((rating<0)||(rating>5)){
             throw new ArithmeticException("Choose from 0 to 5!");

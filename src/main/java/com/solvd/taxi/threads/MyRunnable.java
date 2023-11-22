@@ -1,9 +1,10 @@
 package com.solvd.taxi.threads;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class MyRunnable implements Runnable{
-    public static Logger LOGGER = Logger.getLogger(MyRunnable.class);
+    public static Logger LOGGER = LogManager.getLogger(MyRunnable.class);
 
     public MyRunnable(){}
 

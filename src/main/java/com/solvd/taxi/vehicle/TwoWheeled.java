@@ -2,11 +2,11 @@ package com.solvd.taxi.vehicle;
 
 import com.solvd.taxi.enums.TransportType;
 
-public class TwoWheeled extends Vehicle {
+public abstract class TwoWheeled extends Vehicle {
     private TransportType type;
 
-    public TwoWheeled() {}
-    public TwoWheeled(int avgSpeed, int power, int fuelConsumption, TransportType type) {
+    protected TwoWheeled() {}
+    protected TwoWheeled(int avgSpeed, int power, int fuelConsumption, TransportType type) {
         super(avgSpeed, power, fuelConsumption);
         this.type = type;
     }

@@ -53,7 +53,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     if: github.event_name == 'push'
-    needs: test
+    needs: package
     environment: prodaction
 
     steps:
